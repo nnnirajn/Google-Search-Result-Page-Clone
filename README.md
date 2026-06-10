@@ -25,4 +25,5 @@ https://nnnirajn.github.io/Google-Search-Result-Page-Clone/
 ### Screenshots :
 Responsive Checker Link : https://ui.dev/amiresponsive?url=https://nnnirajn.github.io/Google-Search-Result-Page-Clone/
 
-<img width="1009" height="607" alt="image" src="https://github.com/user-attachments/assets/d01902fb-1fb2-4fa8-a592-b90c036fd5fe" />
+<img width="1035" height="607" alt="image" src="https://github.com/user-attachments/assets/a1c98c6f-ba6f-4c35-ad66-30c78b1247bc" />
+
