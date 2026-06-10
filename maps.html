@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>how to learn web development - Google Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Roboto', 'Arial', 'sans-serif'] },
+          colors: {
+            google: {
+              blue: '#1a0dab', link: '#1a0dab', visited: '#681da8', text: '#202124',
+              gray: '#4d5156', muted: '#70757a', border: '#ebebeb', tab: '#1a73e8', hover: '#f8f9fa',
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-google-text antialiased" data-active-tab="maps">
+
+  <div id="site-header"></div>
+
+  <div class="maps-layout">
+    <aside class="maps-sidebar">
+      <h1 class="text-lg font-normal mb-1">Coding bootcamps near you</h1>
+      <p class="text-sm text-google-muted mb-4">Results for web development courses</p>
+
+      <div class="maps-result-item active" data-marker="1">
+        <svg class="maps-pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <div>
+          <div class="font-medium text-[15px]">General Assembly</div>
+          <div class="text-sm text-google-muted">Web Development Immersive</div>
+          <div class="text-sm text-google-gray mt-1">★★★★☆ 4.6 · Bootcamp · 0.8 mi</div>
+          <div class="text-xs text-google-muted mt-1">Open · Closes 9 PM</div>
+        </div>
+      </div>
+
+      <div class="maps-result-item" data-marker="2">
+        <svg class="maps-pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <div>
+          <div class="font-medium text-[15px]">Flatiron School</div>
+          <div class="text-sm text-google-muted">Software Engineering Program</div>
+          <div class="text-sm text-google-gray mt-1">★★★★☆ 4.5 · Bootcamp · 1.2 mi</div>
+          <div class="text-xs text-google-muted mt-1">Open · Closes 8 PM</div>
+        </div>
+      </div>
+
+      <div class="maps-result-item" data-marker="3">
+        <svg class="maps-pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <div>
+          <div class="font-medium text-[15px]">Local Library — Tech Hub</div>
+          <div class="text-sm text-google-muted">Free Web Dev Workshops</div>
+          <div class="text-sm text-google-gray mt-1">★★★★★ 4.8 · Library · 0.5 mi</div>
+          <div class="text-xs text-google-muted mt-1">Open · Closes 6 PM</div>
+        </div>
+      </div>
+
+      <div class="maps-result-item" data-marker="4">
+        <svg class="maps-pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <div>
+          <div class="font-medium text-[15px]">Codecademy Partner Center</div>
+          <div class="text-sm text-google-muted">In-person coding sessions</div>
+          <div class="text-sm text-google-gray mt-1">★★★★☆ 4.3 · Education · 2.1 mi</div>
+          <div class="text-xs text-google-muted mt-1">Closed · Opens 10 AM</div>
+        </div>
+      </div>
+
+      <div class="maps-result-item" data-marker="5">
+        <svg class="maps-pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <div>
+          <div class="font-medium text-[15px]">Community College — CS Dept</div>
+          <div class="text-sm text-google-muted">Web Development Certificate</div>
+          <div class="text-sm text-google-gray mt-1">★★★★☆ 4.4 · College · 3.5 mi</div>
+          <div class="text-xs text-google-muted mt-1">Open · Closes 5 PM</div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="maps-view">
+      <div class="maps-view-inner">
+        <div class="map-marker" style="left: 45%; top: 40%;" data-id="1">
+          <svg width="32" height="42" viewBox="0 0 32 42"><path fill="#EA4335" d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26C32 7.16 24.84 0 16 0zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
+        <div class="map-marker" style="left: 62%; top: 55%;" data-id="2">
+          <svg width="28" height="36" viewBox="0 0 32 42"><path fill="#FBBC05" d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26C32 7.16 24.84 0 16 0zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
+        <div class="map-marker" style="left: 35%; top: 50%;" data-id="3">
+          <svg width="28" height="36" viewBox="0 0 32 42"><path fill="#4285F4" d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26C32 7.16 24.84 0 16 0zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
+        <div class="map-marker" style="left: 70%; top: 35%;" data-id="4">
+          <svg width="28" height="36" viewBox="0 0 32 42"><path fill="#34A853" d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26C32 7.16 24.84 0 16 0zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
+        <div class="map-marker" style="left: 55%; top: 68%;" data-id="5">
+          <svg width="28" height="36" viewBox="0 0 32 42"><path fill="#EA4335" d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26C32 7.16 24.84 0 16 0zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
+      </div>
+      <div class="map-controls">
+        <button type="button" class="map-control-btn" aria-label="Zoom in">+</button>
+        <button type="button" class="map-control-btn" aria-label="Zoom out">−</button>
+      </div>
+      <div class="absolute bottom-4 left-4 bg-white px-3 py-2 rounded shadow text-xs text-google-muted">
+        Map data ©2026 Google Clone
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Developed by <span class="site-footer-name">Niraj Narkhede</span></p>
+  </footer>
+
+  <script src="header.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.maps-result-item').forEach((item) => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.maps-result-item').forEach((i) => i.classList.remove('active'));
+        item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

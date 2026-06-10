@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>how to learn web development - Google Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Roboto', 'Arial', 'sans-serif'] },
+          colors: {
+            google: {
+              blue: '#1a0dab', link: '#1a0dab', visited: '#681da8', text: '#202124',
+              gray: '#4d5156', muted: '#70757a', border: '#ebebeb', tab: '#1a73e8', hover: '#f8f9fa',
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-google-text antialiased" data-active-tab="images">
+
+  <div id="site-header"></div>
+
+  <div class="max-w-[1280px] mx-auto px-3 sm:px-5 lg:px-8 py-3">
+    <div class="tab-toolbar">
+      <button type="button" class="filter-chip active">All</button>
+      <button type="button" class="filter-chip">Past hour</button>
+      <button type="button" class="filter-chip">Past 24 hours</button>
+      <button type="button" class="filter-chip">Past week</button>
+      <button type="button" class="filter-chip">Past month</button>
+      <button type="button" class="filter-chip">Past year</button>
+      <button type="button" class="filter-chip">Size ▾</button>
+      <button type="button" class="filter-chip">Color ▾</button>
+      <button type="button" class="filter-chip">Type ▾</button>
+    </div>
+
+    <div class="images-grid">
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-blue-400 to-indigo-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">HTML &amp; CSS</div>
+        </div>
+        <div class="image-meta">MDN Web Docs · Web development roadmap infographic</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-yellow-400 to-orange-500">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">JavaScript</div>
+        </div>
+        <div class="image-meta">freeCodeCamp · JavaScript cheat sheet</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-green-400 to-teal-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">React</div>
+        </div>
+        <div class="image-meta">React.dev · Component architecture diagram</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-purple-400 to-pink-500">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">VS Code</div>
+        </div>
+        <div class="image-meta">Visual Studio Code · Developer workspace setup</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-red-400 to-rose-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Git</div>
+        </div>
+        <div class="image-meta">GitHub · Version control workflow</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-cyan-400 to-blue-500">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Responsive</div>
+        </div>
+        <div class="image-meta">CSS-Tricks · Responsive design breakpoints</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-amber-400 to-yellow-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Flexbox</div>
+        </div>
+        <div class="image-meta">CSS-Tricks · Complete guide to Flexbox</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-emerald-400 to-green-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Node.js</div>
+        </div>
+        <div class="image-meta">Node.js · Backend development overview</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-violet-400 to-purple-700">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Portfolio</div>
+        </div>
+        <div class="image-meta">Dribbble · Web developer portfolio examples</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-sky-400 to-blue-600">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">API</div>
+        </div>
+        <div class="image-meta">Postman · REST API tutorial diagram</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-orange-400 to-red-500">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">DevTools</div>
+        </div>
+        <div class="image-meta">Chrome DevTools · Debugging web apps</div>
+      </a>
+      <a href="#" class="image-card">
+        <div class="image-thumb bg-gradient-to-br from-lime-400 to-green-500">
+          <div class="placeholder-gradient text-white/80 text-sm font-medium">Career</div>
+        </div>
+        <div class="image-meta">LinkedIn · Web developer career path 2026</div>
+      </a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Developed by <span class="site-footer-name">Niraj Narkhede</span></p>
+  </footer>
+
+  <script src="header.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.filter-chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.filter-chip').forEach((c) => c.classList.remove('active'));
+        chip.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

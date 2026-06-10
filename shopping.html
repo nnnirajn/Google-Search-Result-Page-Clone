@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>how to learn web development - Google Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Roboto', 'Arial', 'sans-serif'] },
+          colors: {
+            google: {
+              blue: '#1a0dab', link: '#1a0dab', visited: '#681da8', text: '#202124',
+              gray: '#4d5156', muted: '#70757a', border: '#ebebeb', tab: '#1a73e8', hover: '#f8f9fa',
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-google-text antialiased" data-active-tab="shopping">
+
+  <div id="site-header"></div>
+
+  <div class="max-w-[1280px] mx-auto px-3 sm:px-5 lg:px-8 py-3">
+    <div class="tab-toolbar">
+      <button type="button" class="filter-chip active">On sale</button>
+      <button type="button" class="filter-chip">Free shipping</button>
+      <button type="button" class="filter-chip">Under $30</button>
+      <button type="button" class="filter-chip">4+ stars</button>
+      <button type="button" class="filter-chip">Books</button>
+      <button type="button" class="filter-chip">Courses</button>
+    </div>
+
+    <div class="shopping-grid">
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-4">
+          <div class="text-center">
+            <div class="text-2xl font-bold text-blue-800 mb-1">HTML &amp; CSS</div>
+            <div class="text-xs text-blue-600">Jon Duckett</div>
+          </div>
+        </div>
+        <div class="product-title">HTML and CSS: Design and Build Websites</div>
+        <div class="product-price">$24.99</div>
+        <div class="product-store">Amazon.com</div>
+        <div class="product-rating"><span class="stars">★★★★★</span> 4.8 (12,400)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-yellow-50 to-amber-100 flex items-center justify-center p-4">
+          <div class="text-center">
+            <div class="text-2xl font-bold text-yellow-800 mb-1">JavaScript</div>
+            <div class="text-xs text-yellow-700">Eloquent JS</div>
+          </div>
+        </div>
+        <div class="product-title">Eloquent JavaScript, 4th Edition — A Modern Introduction</div>
+        <div class="product-price">$19.50</div>
+        <div class="product-store">Barnes &amp; Noble</div>
+        <div class="product-rating"><span class="stars">★★★★☆</span> 4.6 (3,200)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center p-4">
+          <div class="text-2xl font-bold text-green-800">Udemy</div>
+        </div>
+        <div class="product-title">The Complete Web Developer Course 2026 — Zero to Mastery</div>
+        <div class="product-price">$14.99</div>
+        <div class="product-store">Udemy</div>
+        <div class="product-rating"><span class="stars">★★★★★</span> 4.7 (89,000)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-purple-50 to-violet-100 flex items-center justify-center p-4">
+          <div class="text-2xl font-bold text-purple-800">React</div>
+        </div>
+        <div class="product-title">The Road to React — Learn React Step by Step</div>
+        <div class="product-price">$29.99</div>
+        <div class="product-store">roadtoreact.com</div>
+        <div class="product-rating"><span class="stars">★★★★★</span> 4.9 (2,100)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-gray-50 to-gray-200 flex items-center justify-center p-4">
+          <div class="text-xl font-bold text-gray-700">Mechanical Keyboard</div>
+        </div>
+        <div class="product-title">Keychron K2 Wireless Mechanical Keyboard for Developers</div>
+        <div class="product-price">$79.00</div>
+        <div class="product-store">Keychron</div>
+        <div class="product-rating"><span class="stars">★★★★☆</span> 4.5 (8,700)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-indigo-50 to-blue-100 flex items-center justify-center p-4">
+          <div class="text-xl font-bold text-indigo-800">Monitor 27"</div>
+        </div>
+        <div class="product-title">LG 27" 4K UHD IPS Monitor — Ideal for Coding</div>
+        <div class="product-price">$349.99</div>
+        <div class="product-store">Best Buy</div>
+        <div class="product-rating"><span class="stars">★★★★☆</span> 4.4 (1,890)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-orange-50 to-red-100 flex items-center justify-center p-4">
+          <div class="text-xl font-bold text-orange-800">Headphones</div>
+        </div>
+        <div class="product-title">Sony WH-1000XM5 — Noise Cancelling for Focused Coding</div>
+        <div class="product-price">$278.00</div>
+        <div class="product-store">Sony</div>
+        <div class="product-rating"><span class="stars">★★★★★</span> 4.8 (45,000)</div>
+      </a>
+
+      <a href="#" class="product-card">
+        <div class="product-img bg-gradient-to-br from-teal-50 to-cyan-100 flex items-center justify-center p-4">
+          <div class="text-xl font-bold text-teal-800">Web Dev</div>
+        </div>
+        <div class="product-title">Don't Make Me Think — Web Usability Book</div>
+        <div class="product-price">$18.99</div>
+        <div class="product-store">Amazon.com</div>
+        <div class="product-rating"><span class="stars">★★★★★</span> 4.7 (6,500)</div>
+      </a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Developed by <span class="site-footer-name">Niraj Narkhede</span></p>
+  </footer>
+
+  <script src="header.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.filter-chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.filter-chip').forEach((c) => c.classList.remove('active'));
+        chip.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>how to learn web development - Google Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Roboto', 'Arial', 'sans-serif'] },
+          colors: {
+            google: {
+              blue: '#1a0dab', link: '#1a0dab', visited: '#681da8', text: '#202124',
+              gray: '#4d5156', muted: '#70757a', border: '#ebebeb', tab: '#1a73e8', hover: '#f8f9fa',
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-google-text antialiased" data-active-tab="ai-mode">
+
+  <div id="site-header"></div>
+
+  <main class="ai-mode-layout">
+    <div class="ai-response-card">
+      <div class="ai-sparkle">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+        AI Overview
+      </div>
+      <h1 class="text-xl font-normal mb-4">How to learn web development</h1>
+      <div class="text-[15px] text-google-gray leading-relaxed space-y-4">
+        <p>To learn web development, start with the three core technologies: <strong>HTML</strong> for structure, <strong>CSS</strong> for styling, and <strong>JavaScript</strong> for interactivity. Most beginners follow a structured path from frontend basics to building full projects.</p>
+        <p><strong>Recommended learning path:</strong></p>
+        <ol class="list-decimal list-inside space-y-2 ml-1">
+          <li>Learn HTML &amp; CSS fundamentals (2–4 weeks)</li>
+          <li>Master JavaScript basics and DOM manipulation (4–6 weeks)</li>
+          <li>Build responsive projects with Flexbox and Grid</li>
+          <li>Learn a framework like React or Vue (optional but helpful)</li>
+          <li>Explore backend basics with Node.js or Python</li>
+        </ol>
+        <p>Free resources like MDN Web Docs, freeCodeCamp, and The Odin Project are excellent starting points. Consistent daily practice of 1–2 hours can make you job-ready in 6–12 months.</p>
+      </div>
+    </div>
+
+    <section class="mb-8">
+      <h2 class="text-sm font-medium text-google-muted mb-3">Sources</h2>
+      <a href="#" class="ai-source-link">
+        <div class="w-7 h-7 rounded-full bg-orange-100 flex items-center justify-center text-xs font-bold text-orange-600 shrink-0">M</div>
+        <div>
+          <div class="text-sm text-google-text">MDN Web Docs — Getting started with the web</div>
+          <div class="text-xs text-google-muted">developer.mozilla.org</div>
+        </div>
+      </a>
+      <a href="#" class="ai-source-link">
+        <div class="w-7 h-7 rounded-full bg-green-700 flex items-center justify-center text-[9px] font-bold text-white shrink-0">fCC</div>
+        <div>
+          <div class="text-sm text-google-text">freeCodeCamp — Learn to Code for Free</div>
+          <div class="text-xs text-google-muted">freecodecamp.org</div>
+        </div>
+      </a>
+      <a href="#" class="ai-source-link">
+        <div class="w-7 h-7 rounded-full bg-blue-600 flex items-center justify-center text-xs font-bold text-white shrink-0">W</div>
+        <div>
+          <div class="text-sm text-google-text">W3Schools — Web Development Tutorial</div>
+          <div class="text-xs text-google-muted">w3schools.com</div>
+        </div>
+      </a>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-sm font-medium text-google-muted mb-3">Related</h2>
+      <a href="#" class="ai-followup-chip">Best free web development courses</a>
+      <a href="#" class="ai-followup-chip">Web development roadmap 2026</a>
+      <a href="#" class="ai-followup-chip">HTML vs CSS vs JavaScript</a>
+      <a href="#" class="ai-followup-chip">How long to become a web developer</a>
+    </section>
+
+    <div class="ai-input-box">
+      <svg class="w-5 h-5 text-google-muted shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+      <input type="text" placeholder="Ask a follow-up" aria-label="Ask a follow-up" />
+      <button type="button" aria-label="Send" class="p-2 rounded-full hover:bg-gray-100">
+        <svg class="w-5 h-5 text-google-tab" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+      </button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Developed by <span class="site-footer-name">Niraj Narkhede</span></p>
+  </footer>
+
+  <script src="header.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
